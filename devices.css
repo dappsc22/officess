@@ -1,0 +1,155 @@
+@media screen and (max-width : 4100px){
+    header, nav, .some_text img{
+        width:100%;
+    }
+    .flexing{
+        padding: 0% 1% 0% 0%;
+    }
+    #box{
+        width: auto;
+        height: auto;
+        margin-top: 10px;
+    }
+    ._hg{
+        width: 100%;
+    }
+    .something img{
+        height: 100%;
+    }
+    .something .about_bing{
+        position: absolute;
+        margin: -28em 0rem 0rem 5rem;
+        width: 28%;
+    }
+}
+
+@media screen and (max-width : 800px){
+    ._01{
+        width: 50%;
+        margin: -22rem 0rem 0rem 2.5rem;
+    }
+    ._flex{
+        display: block;
+    }
+    ._flex p{
+        padding: 0.5rem 0 0 0;
+    }
+    footer{
+        display: block;
+    } 
+    .bottom_right{
+        margin: 0;
+    }  
+}
+
+@media screen and (max-width : 860px){
+    .list ul li{
+        display: none;
+    }
+    #hide{
+        display: none;
+    }
+    .left_nav{
+        margin: auto;
+        width: fit-content;
+    }
+    .left_nav img{
+        width: 100%;    
+        margin-left: 0.5rem;
+    }
+    .right_nav ul{
+        margin-right: 1rem;
+    }
+    .kjgk, .right_nav{
+        display: flex;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width : 460px){
+    .bottom_right ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom_right ul li .tom{
+        margin-left: 0em;
+    }
+}
+
+@media screen and (max-width : 1080px){
+    ._lists{
+        display: block;
+    }
+    ._points{
+        text-align: left;
+    }
+    ._points1{
+        padding: 0;
+        margin: 0 0 0 8rem;
+        text-align: left;
+    }
+    ._tuy{
+        padding: 0;
+    }
+    ._dfg{
+        margin-top: 2rem;
+        padding: 0;
+    }
+    ._more{
+        padding-left: 0;
+    }
+    .about_bing{
+        display: none;
+    }
+    #_sdl{
+        display: contents;
+    }
+    .about_bing2{
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width : 500px){
+    ._tuy, ._dfg{
+        display: block;
+        text-align: left;
+    }
+    ._points, ._points1{
+        text-align: left;
+        padding: 0;
+        margin: 0;
+    }
+    ._thy{
+        margin: 0;
+    }
+    .social-media{
+        margin: 2rem auto;
+    }
+    .choose{
+        display: block;
+    }
+    .cheese{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width : 615px){
+    ._asdf, ._gnm{
+        display: block;
+    }
+    ._hg{
+        margin: auto;
+    }
+    #_sdl{
+        display: contents;
+    }
+    .about_bing2{
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width : 260px){
+    ._hjk{
+        display: block;
+    }
+}

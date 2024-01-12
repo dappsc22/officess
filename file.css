@@ -1,0 +1,456 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    margin: auto;
+}
+header{
+    position: sticky;
+    margin: auto;
+    width: 100%;
+}
+nav{
+    display: flex;
+    height: 4rem;
+    width: 83.3rem;
+    margin: auto;
+}
+.left_nav img{
+    height: 3.5rem;
+    width: 12rem;
+    margin: 0;
+}
+.left_nav{
+    display: flex;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+}
+.list ul{
+    list-style: none;
+    display: flex;
+    padding: 1rem 0.5rem 0rem;
+    margin: 0;
+}
+.list ul li{
+    margin: 0rem 0rem 0rem 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.anchor{
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+}
+.anchor1{
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+}
+.right_nav{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+.right_nav ul li{
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 1rem 0.5rem 0rem;
+}
+.right_nav ul {
+    list-style: none;
+    display: flex;
+}
+.icon{
+    margin: 0;
+}
+.image{
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+}
+img{
+    height: 30rem;
+    width: 85rem;
+    margin: auto;
+}
+.some_text{
+    width: fit-content;
+    margin: auto;
+}
+.some_text img{
+    width: 83.5rem;
+}
+._01{
+    position: absolute;
+    margin: -19rem 0rem 0rem 5rem;
+    width: auto;
+    font-family: inherit;
+    height: 10rem;
+}
+span.para{
+    font-size: 25px;
+    font-weight: 700;
+}
+._01 input{
+    height:3rem;
+    width: 9rem;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    border: 0;
+    color: rgb(254, 254, 255);
+    background-color: rgb(95, 95, 207);
+    padding: 0;
+}
+._01 input:hover{
+    background-color: blue;
+}
+#pop_menu{
+    display: none;
+    position: absolute;
+    top: 4rem;
+    z-index: 3;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(245, 240, 233);
+}
+#pop_menu ul{
+    list-style: none;
+}
+#pop_menu ul li{
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 0.3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+#pop_menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+#pop_menu hr{
+    margin: 0.5rem 0 0.5rem 0;
+}
+._h2{
+    height: fit-content;
+    width: fit-content;
+}
+._h2 P{
+    font-size: 22px;
+}
+._flex{
+    display: flex;
+}
+._flex p{
+    position: absolute;
+    margin: auto;
+    padding: 0.5rem 0 0 3rem;
+}
+._t1{
+    font-style: none;
+    color: black;
+    cursor: pointer;
+}
+._t1 p:hover{
+    text-decoration: underline;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+    position: relative;
+    top: 0.5rem;
+}
+.choose{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+.cheese img{
+    height: 3rem;
+    width: 3rem;
+    margin-top: 5rem;
+}
+.cheese{
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 2rem;
+    text-align: center;
+}
+.choose p{
+    margin-top: 1rem;
+    font-weight: 500;
+}
+.choose p:hover{
+    border-style: dotted;
+}
+._t1:hover .fa{
+    margin-left: 1rem;
+}
+#_sdl{
+    margin: auto;
+    background-color: whitesmoke;
+    width: fit-content;
+    display: none;
+}
+.about_bing2 input{
+    color: antiquewhite;
+    padding: 1.5%;
+    font-size: 18px;
+    background-color: #0067b8;
+    border-style: none;
+}
+.about_bing2 a{
+    color: black;
+    text-decoration: none;
+}
+.about_bing2 input:hover{
+    background-color:#0c4d7c ;
+}
+.about_bing2 a:hover h5{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0067b8;
+}
+.about_bing2 h5:hover .fa{
+    margin-left: 0.5rem;
+}
+._asdf{
+    display: inline-flex;
+    width: 100%;
+    margin: auto;
+}
+.flexing{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 3.5rem;
+}
+._cvb{
+    margin-left: 1.5rem;
+}
+._gnm{
+    display: flex;
+}
+._hg{
+    width: 18rem;
+    height: fit-content;
+    /* background-color: aquamarine;
+    border-style: dotted; */
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+._jh{
+    height: 12rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+._hg h4{
+    font-weight: 500;
+    margin-left: 1rem;
+}
+._hg p{
+    margin-left: 1rem;
+}
+._hg a{
+    text-decoration: none;
+    width: fit-content;
+    padding: 0%;
+}
+._hg a h5{
+    margin-left: 1rem;
+    width: fit-content;
+}
+._hg a:hover{
+    text-decoration: underline;
+}
+._hg h5:hover i{
+    margin-left: 0.5rem;
+}
+#box{
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+}
+._pogo{
+    border-style: solid;
+    border-width: 1px;
+    background-color: yellow;
+    width: 3rem;
+    height: fit-content;
+    text-align: center;
+    font-weight: 500;
+}
+#margin{
+    margin-top: 3.5rem;
+}
+#_Bing{
+    margin-top: 2rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.something{
+    width: fit-content;
+    margin: auto;
+}
+.something h4{
+    font-size: 28px;
+}
+.something img{
+    width: 100%;
+    margin: auto;
+    padding: 0%;
+}
+.about_bing{
+    position: absolute;
+    margin: -28em 0rem 0rem 5rem;
+    width: 28%;
+    font-family: inherit;
+    height: fit-content;
+    color: antiquewhite;
+}
+.something input{
+    color: antiquewhite;
+    padding: 3%;
+    font-size: 18px;
+    background-color: #0067b8;
+    border-style: none;
+}
+.something input:hover{
+    background-color:#0c4d7c ;
+}
+.something a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.something a:hover h5{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.something h5:hover .fa{
+    margin-left: 0.5rem;
+}
+.social-media{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+}
+._ghy{
+    font-size: 20px;
+    font-weight: 400;
+    width: 120%;    
+}
+._hjk{
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+._hjk img{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+}
+._hjk img:hover{
+    border-style: dotted;
+    border-color: #0067b8;
+}
+._more{
+    display: flex;
+    width: 100%;
+    margin-top: 4rem;
+}
+._lists{
+    display: inline-flex;
+    width: fit-content;
+}
+._tuy{
+    display: inline-flex;
+}
+._dfg{
+    display: inline-flex;
+}
+._more ul{
+    list-style: none;
+}
+._more ul li{
+    margin-top: 0.7rem;
+}
+._more ul li:hover{
+    text-decoration: underline;
+}
+._more{
+    background-color: rgb(243, 240, 240);
+    width: 100%;
+    padding: 1% 5% 0.5% 3.5%;
+    font-size: 11px;
+}
+._more h4{
+    font-size: 15px;
+}
+._thy{
+    display: block;
+    margin: auto;
+    width: fit-content;
+}
+._points{
+    margin: 0;
+    width: fit-content;
+}
+._points1{
+    margin-left: 6rem;
+    width: fit-content;
+}
+footer{
+    width: 100%;
+    height: fit-content;
+    margin-top: 1.5rem;
+    display: flex;
+}
+._lang{
+    width: fit-content;
+    height: fit-content;
+    margin: 0 0 0 1.5rem;
+}
+._lang img{
+    width: 20px;
+    height: 20px;
+}
+._lang a:hover{
+    text-decoration: underline;
+}
+.bottom_right{
+    margin-left: auto;
+    width: fit-content;
+    height: fit-content;
+}
+.bottom_right ul{
+    display: flex;
+}
+.bottom_right ul li .tom{
+    margin-left: 2em;
+}
+.anchor2{
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+}
+.kjgk{
+    display: none;
+    justify-content: space-between;
+    width: fit-content;
+}
+.kjgk img{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+._mh{
+    margin-left: 1rem;
+}
+#_close{
+    margin-left: 0;
+    display: none;
+    width: fit-content;
+}
